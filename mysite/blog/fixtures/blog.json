@@ -1,0 +1,260 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$180000$hVC2VNBsBp7g$YZ0eAgNbllEtGXAfPpjrKKyyIJVE9OpieElG+fLQd8c=",
+        "last_login": "2020-03-23T11:47:00.153Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-01-05T00:25:50.532Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "cwnzmfy8yerypza0ar3wed1zyys7p4p1",
+    "fields": {
+        "session_data": "OTQ0YzI0ZmYyMTI3ZjAwN2I0MjI1YTAyYTQzYWViM2IwN2U5YmFmNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGI1ODE5MjQ1NDkwNDdlYTIyOTg3Mjg3NGNlNGExYTk1NTRmNzg4In0=",
+        "expire_date": "2020-01-21T21:51:39.122Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "i767zn7ow1zdwazz42glfmss5dooeqg5",
+    "fields": {
+        "session_data": "OTQ0YzI0ZmYyMTI3ZjAwN2I0MjI1YTAyYTQzYWViM2IwN2U5YmFmNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGI1ODE5MjQ1NDkwNDdlYTIyOTg3Mjg3NGNlNGExYTk1NTRmNzg4In0=",
+        "expire_date": "2020-01-25T23:40:31.767Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "o7soi3vqo0sjr60vscad2zz8lb4wez79",
+    "fields": {
+        "session_data": "OTQ0YzI0ZmYyMTI3ZjAwN2I0MjI1YTAyYTQzYWViM2IwN2U5YmFmNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGI1ODE5MjQ1NDkwNDdlYTIyOTg3Mjg3NGNlNGExYTk1NTRmNzg4In0=",
+        "expire_date": "2020-04-06T11:47:00.162Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ot6rcg11uji68y7xc1qraoxwi1k8ac11",
+    "fields": {
+        "session_data": "OTQ0YzI0ZmYyMTI3ZjAwN2I0MjI1YTAyYTQzYWViM2IwN2U5YmFmNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGI1ODE5MjQ1NDkwNDdlYTIyOTg3Mjg3NGNlNGExYTk1NTRmNzg4In0=",
+        "expire_date": "2020-01-19T00:26:43.369Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "top4gp1goqzfw3x32lbokj5pbzo82v1t",
+    "fields": {
+        "session_data": "OTQ0YzI0ZmYyMTI3ZjAwN2I0MjI1YTAyYTQzYWViM2IwN2U5YmFmNTp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJkOGI1ODE5MjQ1NDkwNDdlYTIyOTg3Mjg3NGNlNGExYTk1NTRmNzg4In0=",
+        "expire_date": "2020-01-21T20:35:02.116Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "localhost:8000",
+        "name": "localhost:8000"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "the gods of our ancestors",
+        "slug": "the-gods-of-our-ancestors",
+        "author": [
+            "admin"
+        ],
+        "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "publish": "2020-01-06T19:26:34Z",
+        "created": "2020-01-06T19:27:16.261Z",
+        "updated": "2020-01-11T23:40:52.422Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "django is the best python web framework",
+        "slug": "django-best-python-web-framework",
+        "author": [
+            "admin"
+        ],
+        "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "publish": "2020-01-11T23:45:03Z",
+        "created": "2020-01-11T23:47:08.597Z",
+        "updated": "2020-01-11T23:47:08.597Z",
+        "status": "published"
+    }
+},
+{
+    "model": "blog.post",
+    "pk": 4,
+    "fields": {
+        "title": "python is my favourite programming language",
+        "slug": "python-my-favourite-programming-language",
+        "author": [
+            "admin"
+        ],
+        "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "publish": "2020-01-11T23:48:08Z",
+        "created": "2020-01-11T23:49:04.859Z",
+        "updated": "2020-01-11T23:49:04.859Z",
+        "status": "published"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2020-01-06T19:22:41.135Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "the gods of our ancestor",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2020-01-06T19:26:01.347Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "the gods of our ancestors",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2020-01-06T19:26:31.430Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "the gods of our ancestors",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2020-01-06T19:27:16.262Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "the gods of our ancestors",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2020-01-11T23:40:52.432Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "2",
+        "object_repr": "the gods of our ancestors",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2020-01-11T23:47:08.598Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "3",
+        "object_repr": "django is the best python web framework",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2020-01-11T23:49:04.868Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "blog",
+            "post"
+        ],
+        "object_id": "4",
+        "object_repr": "python is my favourite programming language",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2020-03-08T16:39:04.495Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "sites",
+            "site"
+        ],
+        "object_id": "1",
+        "object_repr": "localhost:8000",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+    }
+}
+]
