@@ -1,4 +1,6 @@
+{% load blog_tags %}
 {% load static %}
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,6 +15,12 @@
   <div id="sidebar">
     <h2>My blog</h2>
       <p>This is my blog.</p>
+      <p>The latest {% total_posts %} posts published so far in my blog.</p>
+
+      <h3>Latest posts</h3>
+      {% render_latest_posts 3 %}
+
+      <h3>Links</h3>
       <p><a href="{% url "blog:post_feed" %}" title="Subscribe to my RSS feed">RSS feed</a></p>
 
   </div>
