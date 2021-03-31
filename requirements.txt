@@ -2,7 +2,7 @@ asgiref==3.2.3
 beautifulsoup4==4.9.1
 cssselect==1.1.0
 Django==3.0.7
-lxml==4.5.2
+lxml==4.6.3
 markdown2==2.3.9
 psycopg2-binary==2.8.5
 pyquery==1.4.1
