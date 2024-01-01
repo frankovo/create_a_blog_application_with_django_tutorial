@@ -8,6 +8,7 @@ psycopg==3.1.16
 psycopg-binary==3.1.16
 pyquery==2.0.0
 pytz==2023.3.post1
+ipython==8.19.0
 readtime==3.0.0
 soupsieve==2.5
 sqlparse==0.4.4
